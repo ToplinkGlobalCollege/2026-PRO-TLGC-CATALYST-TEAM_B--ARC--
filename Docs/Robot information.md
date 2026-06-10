@@ -3,9 +3,9 @@
 
 **Name:** Arc
 
-**Weight:** 
+**Weight:** 0.67
 
-**Size:**
+**Size:** 295mm x 120mm with 200mm in height
 
 
 > [!NOTE]
