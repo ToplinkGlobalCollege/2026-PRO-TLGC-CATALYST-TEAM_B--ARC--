@@ -45,19 +45,19 @@ Our autonomous self-driving car was developed using the LEGO Mindstorms EV3 Educ
 # Chassis
 
 ## Selection Of Wheel
-<img width="4096" height="3072" alt="1" src="https://github.com/user-attachments/assets/7d32d41d-1403-46ab-9c7d-e8ca8f60c51c" />
+<img width="4096" height="3072" alt="1" src="https://github.com/user-attachments/assets/bb22fd77-4024-455b-adb9-6293aaf76dae" />
 
 We selected the Wheel 39367 at the front and the Wheel 49295 at the rear to optimize our robot’s performance on a mat field. The front wheels are lightweight and have a low friction, narrow profile, which allows for quick, smooth turns with minimal resistance perfect for precise navigation on a smooth surface. Their design supports agile repositioning during autonomous routines where accuracy and responsiveness are critical. This configuration delivers an ideal balance of maneuverability at the front and powerful drive at the back, allowing the robot to move efficiently, accurately, and reliably on a mat based competition field
 
 ## Execution of Motors And Its Engineering Factor
 
 ### Motor Used For Steering
-<img width="4096" height="3072" alt="2" src="https://github.com/user-attachments/assets/47b0c45a-b68d-429a-965d-6494107bd8d8" />
+<img width="4096" height="3072" alt="2" src="https://github.com/user-attachments/assets/2ae7c269-d4cf-4a52-9c45-5ccee5994e14" />
 
 The medium motor is small and fast, which makes it perfect for turning the front wheels quickly and smoothly. This helps the robot steer accurately when changing direction or making turns on the mat.
 
 ### Motor Used For Power
-<img width="4096" height="3072" alt="3" src="https://github.com/user-attachments/assets/75a49350-2e84-450b-9e2d-450ac7cb9e83" />
+<img width="4096" height="3072" alt="3" src="https://github.com/user-attachments/assets/987bab28-7492-47af-92b6-1cea302fe0a4" />
 
 The medium motor at the back gives the robot its main driving power. It provides strong and steady movement, allowing the robot to move with good speed and stability. This setup steering in the front and power in the back keeps the robot balanced and allows it to move smoothly, turn precisely, and stay in control on the mat field during the competition.
 
@@ -68,7 +68,7 @@ Based on the simple engineering principle "use the right tool for the job," stee
 This setup follows the principle of separating movement and control by using one light motor for turning and another for moving. This configuration makes the robot easier to steer, stronger when driving, and overall more reliable during the competition.
 
 ## Execution Of Steering
-<img width="4096" height="3072" alt="4" src="https://github.com/user-attachments/assets/98526a93-16be-452c-8c2c-fbbdbc414a1c" />
+<img width="4096" height="3072" alt="4" src="https://github.com/user-attachments/assets/e3b5a4df-8430-4675-a292-00523f9adf81" />
 
 Our robot uses a front steering mechanism inspired by the rack and pinion system to control its direction. Instead of a full gear rack, we used a half gear piece connected to a beam. When the gear rotates, it pushes the beam side to side, which turns the front wheels left or right. This setup allows the robot to steer smoothly and accurately, making it easier to change direction on the mat. The system provides controlled and stable movement during turns, helping the robot navigate the field more consistently during competitions.
 
@@ -83,22 +83,22 @@ We’ve powered our self-driving car using the EV3 rechargeable battery, which p
 ### Ultrasonic Sensor
 Our robot utilizes an ultrasonic sensor to determine its distance from the field wall. The sensor emits sound waves and measures the time it takes for the echo to return, calculating the exact distance based on that delay.
 
-<img width="4096" height="3072" alt="5" src="https://github.com/user-attachments/assets/f9c45f41-ffeb-49d0-be5f-376da73d76cd" />
+<img width="4096" height="3072" alt="5" src="https://github.com/user-attachments/assets/caeafd40-795d-46e8-b68f-4dcf80592b1c" />
 
 Originally, our robot relied on two ultrasonic sensors and a PID controller to know when to turn. If a distance change was detected, the robot would turn in that direction accordingly. This method worked at the start, but it proved unreliable at times, making turns hard to execute. To make the system more stable, we switched to using a single ultrasonic sensor to guide the robot using the wall. This sensor measures how close the robot is to the side of the field. By maintaining a set distance from the wall, the robot stays perfectly on track. If it gets too close or too far, it gently turns to correct itself. This wall following method made the robot significantly more accurate, allowing it to turn smoothly without needing multiple sensors at all.
 
 ## Gyro Sensor
-<img width="4096" height="3072" alt="7" src="https://github.com/user-attachments/assets/da86fa1c-3d4f-4051-9ac8-d5add18c245b" />
+<img width="4096" height="3072" alt="7" src="https://github.com/user-attachments/assets/a522c1d7-b2fd-4519-b60e-4f7b45f8ba33" />
 
 A gyro sensor is attached to help the robot track how many full turns or laps it has completed. Because one full spin equals 360 degrees, the sensor continuously adds up the total angle as the robot rotates. We programmed the robot to stop once it hits 1100 degrees, which is slightly more than three full laps. This allows the robot to spin around smoothly and finish up close to its original starting point. As soon as it reaches that specific angle, it stops, ensuring it doesn’t over-rotate or drift off track.
 
 ## Pixy Camera
-<img width="4096" height="3072" alt="6" src="https://github.com/user-attachments/assets/ed9a20bf-466b-44e5-8e4b-2e9c6e17a32a" />
+<img width="4096" height="3072" alt="6" src="https://github.com/user-attachments/assets/91b93e8e-60b3-4f5e-9ec4-d627574eb2b7" />
 
 Our robot uses a Pixy2 camera to detect colored objects in front of it. In this setup, it looks for two specific colors, green and red, which tell the robot which way to go when it encounters an obstacle. If the Pixy2 sees a green object, the robot knows to turn left, and if it sees a red object, it turns right. This helps the robot make quick decisions during the run and choose the correct path based on the color it detects ahead.
 
 ## Color Sensor
-<img width="4096" height="3072" alt="8" src="https://github.com/user-attachments/assets/988bb9d7-020e-45c2-a365-74dd93e6d300" />
+<img width="4096" height="3072" alt="8" src="https://github.com/user-attachments/assets/5eff91c4-64ba-40b7-9d6f-d4ca0b37592c" />
 
 A color sensor is attached, helping the robot count laps by tracking colored lines on the track. As it drives, the sensor looks down at the floor to detect when the surface color changes. We programmed the robot to recognize the blue and orange lines, adding a lap to its counter each time it crosses them. This allows the robot to keep an accurate tally of its progress automatically. Once it reaches the target number of laps, it stops right on cue, ensuring it finishes its run precisely where it's supposed to.
 
@@ -153,9 +153,15 @@ Regarding the vision system, we moved the camera from the top of the robot to th
 <img width="1920" height="957" alt="11" src="https://github.com/user-attachments/assets/a22aa35e-bd4c-43d1-8f64-84b726561f9b" />
 <img width="1920" height="957" alt="12" src="https://github.com/user-attachments/assets/44260112-6be4-4185-8e1a-71e5a5feed31" />
 
+# 2
+
+<img width="1920" height="957" alt="1" src="https://github.com/user-attachments/assets/58e31112-e8d1-4d8b-99c2-a2956c1555c8" />
+<img width="1920" height="957" alt="2" src="https://github.com/user-attachments/assets/dc969be1-ecdb-442b-92b9-17187fe9e01d" />
+<img width="1920" height="957" alt="3" src="https://github.com/user-attachments/assets/dc8256e9-8b89-4dd9-8353-83e7d68503dd" />
+<img width="1920" height="957" alt="4" src="https://github.com/user-attachments/assets/3e166ff1-7859-4e45-b188-f79f6e558314" />
+<img width="1920" height="957" alt="5" src="https://github.com/user-attachments/assets/be946220-667f-4390-a73c-7b0fe597ebf4" />
+<img width="1920" height="957" alt="6" src="https://github.com/user-attachments/assets/21329e05-fe68-4522-aa03-2af42d4d5a34" />
+
 # Credits
 We are deeply proud to represent our school, Toplink Global College Inc., which constantly supports our passion for innovation and robotics. We also want to extend our heartfelt thanks to our beloved coach, your patience, guidance, and continuous encouragement truly inspired us throughout this journey. Finally, we express our sincere appreciation to LEGO Mindstorms; the high-quality components and flexible design of the EV3 kit provided the hands-on experience that allowed us to explore, build, and bring this project to life.
-
-
-
 
