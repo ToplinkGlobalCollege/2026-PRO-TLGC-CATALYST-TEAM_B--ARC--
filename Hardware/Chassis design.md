@@ -1,43 +1,20 @@
 ## Front View
-<img width="8160" height="6144" alt="IMG20260601150324" src="https://github.com/user-attachments/assets/cdf17869-0eee-4483-9fda-56d8ee59709d" />
+<img width="8160" height="6144" alt="IMG20260615113925" src="https://github.com/user-attachments/assets/fe310d49-69f1-4ebc-9da2-2e9a911802a4" />
 
 ## Back View
-<img width="8160" height="6144" alt="IMG20260601150403" src="https://github.com/user-attachments/assets/e6bed877-6657-4989-951b-757c430fbbd5" />
+<img width="8160" height="6144" alt="IMG20260615113815" src="https://github.com/user-attachments/assets/945a4c33-0f11-48e2-9a50-c131b026c4a4" />
 
 ## Top View
-<img width="8160" height="6144" alt="IMG20260601150251" src="https://github.com/user-attachments/assets/8bd28632-d602-4adf-80a1-0e2966c3479c" />
+<img width="8160" height="6144" alt="IMG20260615113647" src="https://github.com/user-attachments/assets/25c71301-ba7f-42cf-8c89-034bd6035d43" />
 
 ## Bottom View
-<img width="8160" height="6144" alt="IMG20260601150524" src="https://github.com/user-attachments/assets/699e00b7-6a18-4e62-a2a7-6c175042a141" />
+<img width="8160" height="6144" alt="IMG20260615113749" src="https://github.com/user-attachments/assets/b4a2bc6c-c25f-4ae8-b822-957c5a088c18" />
 
 ## Right View
-<img width="8160" height="6144" alt="IMG20260601150122" src="https://github.com/user-attachments/assets/405ed193-2fb8-4610-96d5-4cef8efc9445" />
+<img width="8160" height="6144" alt="IMG20260615113551" src="https://github.com/user-attachments/assets/cc134f37-5510-481e-90f1-9ab09cd89a46" />
 
 ## Left View
-<img width="8160" height="6144" alt="IMG20260601150148" src="https://github.com/user-attachments/assets/ec1bcb17-6573-4a4d-8322-f30f53788689" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="8160" height="6144" alt="IMG20260615113611" src="https://github.com/user-attachments/assets/c481e306-3757-4aa0-8077-db1190c6ff6a" />
 
 
 
