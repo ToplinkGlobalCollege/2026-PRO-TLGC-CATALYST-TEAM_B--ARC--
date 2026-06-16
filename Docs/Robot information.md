@@ -1,11 +1,11 @@
 # Robot info
-<img width="1024" height="768" alt="arc" src="https://github.com/user-attachments/assets/26c53aa5-6ed8-410d-bdcc-ea94f15d273a" />
+<img width="800" height="600" alt="ARC" src="https://github.com/user-attachments/assets/ebfba54b-69bd-4acb-864d-184d471ae257" />
 
 **Name:** Arc
 
-**Weight:** 0.67
+**Weight:** 0.66
 
-**Size:** 295mm x 120mm with 200mm in height
+**Size:** 251mm x 120mm with 180mm in height
 
 
 > [!NOTE]
@@ -69,6 +69,6 @@ To guarantee the reliability and safety of the EV3 robot, we followed strict ins
 ### Pixy Cam 2
 <img width="645" height="634" alt="597102144-5753737b-6624-4d70-8d01-149ea59d3588" src="https://github.com/user-attachments/assets/eac6fe5b-9094-40a4-a8a5-aad087f6cca3" />
 
-To improve our robot’s ability to detect visual markers and environmental cues, we mounted the Pixy Cam on top of the robot, connected to a medium motor that allows it to turn 180 degrees. This elevated, dynamic position gives the camera a wider field of view, allowing it to actively pan to detect obstacles from a greater distance and with fewer blind spots. Placing the camera higher also prevents it from being blocked by parts of the robot’s frame, which improves both its accuracy and response time during object recognition.
+To improve our robot’s ability to detect visual markers and environmental cues, we mounted the Pixy Cam on top of the robot, connected to the medium motor steering with an axle. This elevated, dynamic position gives the camera a wider field of view, allowing it to actively turn with the steering to detect obstacles from a greater distance and with fewer blind spots. Placing the camera higher also prevents it from being blocked by parts of the robot’s frame, which improves both its accuracy and response time during object recognition.
 
-For navigation, we mounted a single ultrasonic sensor onto another medium motor, allowing the robot to actively scan its surroundings by turning the sensor left, right, or straight ahead. This strategic configuration enables a single sensor to measure both forward and side distances to nearby walls without the added weight of multiple sensors. As a result, the robot receives reliable and consistent environmental data, helping it stay centered in narrow paths or corridors. By dynamically rotating the sensor to compare left and right distance values, the robot can make precise steering adjustments to maintain a straight, balanced course critical for avoiding collisions and achieving consistent lap performance.
+For navigation, we mounted a single ultrasonic sensor in a fixed position, allowing the robot to actively monitor its surroundings straight ahead. This strategic configuration enables a single sensor to measure forward distances to nearby walls without the added weight of multiple sensors. As a result, the robot receives reliable and consistent environmental data, helping it stay centered in narrow paths or corridors. By constantly tracking these forward distance values, the robot can make precise steering adjustments to maintain a straight, balanced course critical for avoiding collisions and achieving consistent lap performance.
