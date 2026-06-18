@@ -1,1 +1,1 @@
-This file contains step-by-step pictures to show you how to build our robot. The whole building process uses clear images to make sure you can put it together easily and correctly. Please look at the PDF file below for the full guide.
+This file contains step-by-step pictures to show you how to build our robot. The whole building process uses clear images to make sure you can put it together easily and correctly. Please look at the PDF file above for the full guide.
