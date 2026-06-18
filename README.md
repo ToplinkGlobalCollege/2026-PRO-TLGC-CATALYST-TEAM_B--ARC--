@@ -122,6 +122,9 @@ To maintain our robot's direction and precision, we placed a gyroscope and a for
 > [!NOTE]
 > The code starts from the top to bottom
 
+Our robot is built for fully autonomous navigation, combining a Gyro sensor, a front ultrasonic sensor, and a Pixy Cam to master complex courses and avoid colored pillars. The Gyro sensor serves as the robot's internal compass, continuously tracking the driving angle to ensure it stays centered. Utilizing a proportional control method, the system automatically corrects its trajectory based on tracking error, meaning the farther the robot drifts from the center, the sharper it steers to get back on track.
+
+However, staying centered is only half the challenge when facing sharp corners. To manage these, the front ultrasonic sensor constantly measures the distance to oncoming walls, automatically triggering a precise mechanical turn sequence whenever a boundary gets too close. Immediately after a turn, the Pixy Cam takes charge to scan for traffic pillars. Because the camera is connected to the steering mechanism, it can move a full 180 degrees to easily detect obstacles positioned on the sides. It is trained to recognize specific colors: encountering a red pillar directs the robot to steer right, while green dictates a turn to the left. During these encounters, the robot temporarily overrides its path sensors to prioritize these visual cues, safely bypassing the obstacle before seamlessly switching back to gyroscopic stability for a reliable, adaptable run.
 
 # Engineering Factor
 We wanted our LEGO EV3 robot to have vision so it could follow lines, detect colors, and respond to objects. To do this, we used a PixyCam2 smart camera equipped with specialized LEGO firmware.
