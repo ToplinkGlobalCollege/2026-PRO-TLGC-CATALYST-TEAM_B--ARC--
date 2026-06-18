@@ -109,14 +109,15 @@ We used Python in Visual Studio Code to program our EV3 robot, managing motor co
 
 # Code Management
 ## Open challenge
-<img width="1646" height="880" alt="image" src="https://github.com/user-attachments/assets/08d0403d-067c-4cea-a052-5c687eeebaed" />
+<img width="1478" height="913" alt="Open" src="https://github.com/user-attachments/assets/d27397c0-d830-46f2-9e16-9f51a0442c73" />
 
 > [!NOTE]
 > The code starts from the top to bottom
 
+To maintain our robot's direction and precision, we placed a gyroscope and a forward-facing ultrasonic sensor on the robot to continuously measure its heading and the distance to any obstacle ahead. The key idea is to calculate the difference between the gyro angle and the target heading, treating this deviation as the system’s error. We feed this error into an LQR-augmented Stanley controller that automatically adjusts the steering based on the robot's current speed. For example, if the robot drifts past the target angle, it steers in the opposite direction to correct itself, while an integrated memory term actively eliminates any slow drift on straightaways. This feedback loop allows the robot to constantly make small, fluid adjustments to stay on track, while automatically initiating a sharp, 90-degree turn whenever the ultrasonic sensor detects a wall ahead.
 
 ## Obstacle challenge
-
+<img width="1476" height="915" alt="Obstacle" src="https://github.com/user-attachments/assets/d26f020d-9aa0-4d57-a468-3aacb3af4a9b" />
 
 > [!NOTE]
 > The code starts from the top to bottom
